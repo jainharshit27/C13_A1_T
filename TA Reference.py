@@ -58,7 +58,7 @@ while True:
                 space.add(arrow_body, arrow_shape)
     
     if pygame.mouse.get_pressed()[0]:
-        print(pygame.mouse.get_pressed())
+        print(pygame.mouse.get_pressed()) # explain them by printing this tuple that 3 values belong to 3 mouse keys.
         current_time = pygame.time.get_ticks()
         diff = current_time - start_time
         power = min(diff, 1000)
